@@ -1,3 +1,3 @@
 # Bird_Classification_AI_Project_COMP_6721
-#check
-Dataset Link : https://drive.google.com/drive/folders/16bmVDQ7fQeJUlxIosD3lyn8ZxHk67I4S?usp=share_link
+
+Dataset Link : https://www.kaggle.com/datasets/arjunbasandrai/25-indian-bird-species-with-226k-images
