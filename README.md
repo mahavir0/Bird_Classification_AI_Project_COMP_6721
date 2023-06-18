@@ -19,7 +19,7 @@ The given data set consists of around 925 images of 25 different kinds of specie
 
 **Dataset Link : https://www.kaggle.com/datasets/arjunbasandrai/25-indian-bird-species-with-226k-images**
 
-*For our project we have used a set of this dataset to train and evaluate our model*
+*Note : For our project we have used a set of this dataset to train and evaluate our model*
 
 ## Preprocessing the Dataset
 first download the dataset from the provided link from the kaggle, and run the "data_preprocessing.py"
