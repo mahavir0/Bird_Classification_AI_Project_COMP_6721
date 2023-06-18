@@ -18,6 +18,7 @@ For this application we have selected the dataset of Indian bird specie from Kag
 The given data set consists of around 925 images of 25 different kinds of species of birds. Images are taken from the bird conservation community Platform and most of them consist of 1200x800 resolution.
 
 **Dataset Link : https://www.kaggle.com/datasets/arjunbasandrai/25-indian-bird-species-with-226k-images**
+
 *For our project we have used a set of this dataset to train and evaluate our model*
 
 ## Preprocessing the Dataset
