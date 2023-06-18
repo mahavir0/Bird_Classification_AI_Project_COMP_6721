@@ -31,6 +31,8 @@ Some of the image has incorrect sRBG format that can't be interpreted by the ope
 ### Hardware Setup
 Training the model requires the extremely intesive processing hardware units. For this project we have used the Google Colab to get the benefits of cloud computing and highly processing unit. Here are the detailed specifications of the goolge collab hardware
 
+| Name | Specification |
+|:----:|:-------------:|
 | GPU | Tesla T4 - 15.109 GB |
 | CPU | Intel(R) Xeon(R) CPU @ 2.30GHz |
 | CPU Frequency | 2000.178 MHz |
