@@ -27,6 +27,19 @@ This python script will resize the original dataset images and it will also spli
 
 Some of the image has incorrect sRBG format that can't be interpreted by the open-cv in python. so this script will remove noisy data. Deep Learning model requires a concstant input dimensionality, there we have resized the original images into 224x224 fixed resolution.
 
+## Experiment Setup
+### Hardware Setup
+Training the model requires the extremely intesive processing hardware units. For this project we have used the Google Colab to get the benefits of cloud computing and highly processing unit. Here are the detailed specifications of the goolge collab hardware
+
+| GPU | Tesla T4 - 15.109 GB |
+| CPU | Intel(R) Xeon(R) CPU @ 2.30GHz |
+| CPU Frequency | 2000.178 MHz |
+| RAM | 12.7 GB |
+| Disk Space | 107.7 GB |
+
+### Dataset Linking
+Google collab provide the functionlity to directly read, write data from your google drive, for this project we have uploaded our training dataset on the google drive, from where we read data and save the model, and evalution metrices on the google drive. in the code just provide the dataset path of your drive and authenticate the drive permission and you are ready to train your model.
+
 
 **Trained Resnet Model Link : https://drive.google.com/file/d/1vQtUnZYnJhiERQC0GV9m1MwaDedHsUFq/view?usp=drive_link**
 
