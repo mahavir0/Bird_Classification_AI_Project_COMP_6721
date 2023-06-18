@@ -4,15 +4,19 @@
 <p align="justify">
 Birds are a crucial component of global biodiversity, and many species are threatened or endangered. These species
 are indigenous to a certain area of the nation, hence it is important to track and estimate their populations as precisely
-as possible . A significant number of rare bird species have unintentionally been killed by wind turbines in various nations.
+as possible. A significant number of rare bird species have unintentionally been killed by wind turbines in various nations.
 </p>
 
 <p align="justify">
 Bird species recognition is a difficult task because of the varied illumination and multiple camera view
-positions . Birds differ visually significantly across and among species. Hence, it is difficult to create models that
+positions. Birds differ visually significantly across and among species. Hence, it is difficult to create models that
 can precisely recognize and distinguish various species asthey have a variety of sizes, forms, colors, and other physical characteristics.
 </p>
 
+<p align="justify">
+Our main objective is to study Machine Learning (ML) using both Decision Trees and Deep Neural Networks to address a machine learning problem from a real-world problem of identifying bird species, particularly to identify an endangering species of bird to promote broader participation in understanding and protecting the avian biodiversity, applying supervised and semi-supervised learning Classification, and comparing the performance of the different model
+</p>
+  
 ## Dataset
 <p align="justify">
 For this application we have selected the dataset of Indian bird specie from Kaggle. Each photo was hand-picked and taken from the eBird Platform. A total of 22.6k photos, representing all 25 distinct bird species.
