@@ -61,6 +61,10 @@ Google collab provide the functionlity to directly read, write data from your go
 
 **Trained Resnet Model Link : https://drive.google.com/file/d/1vQtUnZYnJhiERQC0GV9m1MwaDedHsUFq/view?usp=drive_link**
 
+```
+pip install -r requirements.txt
+```
+
 
 
 
