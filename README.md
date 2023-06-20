@@ -10,7 +10,7 @@ as possible. A significant number of rare bird species have unintentionally been
 <p align="justify">
 Bird species recognition is a difficult task because of the varied illumination and multiple camera view
 positions. Birds differ visually significantly across and among species. Hence, it is difficult to create models that
-can precisely recognize and distinguish various species asthey have a variety of sizes, forms, colors, and other physical characteristics.
+can precisely recognize and distinguish various species as they have a variety of sizes, forms, colors, and other physical characteristics.
 </p>
 
 <p align="justify">
@@ -19,16 +19,28 @@ Our main objective is to study Machine Learning (ML) using both Decision Trees a
   
 ## Dataset
 <p align="justify">
-For this application we have selected the dataset of Indian bird specie from Kaggle. Each photo was hand-picked and taken from the eBird Platform. A total of 22.6k photos, representing all 25 distinct bird species.
+For this application, we have selected the dataset of Indian bird specie from Kaggle. Each photo was hand-picked and taken from the eBird Platform. A total of 22.6k photos, representing all 25 distinct bird species.
 </p>
   
 <p align="justify">
 The given data set consists of around 925 images of 25 different kinds of species of birds. Images are taken from the bird conservation community Platform and most of them consist of 1200x800 resolution.
 </p>
   
-**Dataset Link : https://www.kaggle.com/datasets/arjunbasandrai/25-indian-bird-species-with-226k-images**
+**Dataset Link: https://www.kaggle.com/datasets/arjunbasandrai/25-indian-bird-species-with-226k-images**
 
-*Note : For our project we have used a set of this dataset to train and evaluate our model*
+*Note: For our project, we have used a set of this dataset to train and evaluate our model*
+
+<p align="justify">
+For this project considering the limited computation power, we have taken the subset of the dataset evaluating the model and compared the performance.
+|Name | No. of Observations | No. of Classes |
+|:---:|:-------------------:|:--------------:|
+|Resnet - CNN Model | 8877 | 10 |
+|Desicion Tree - Supervised | 8877 | 10 |  
+|Desicion Tree - Supervised (Reduced Dataset) | 2767 | 3 |
+|Desicion Tree - Semi-Supervised | 2767 | 3 |
+</p>
+
+
 
 ## Preprocessing the Dataset
 <p align="justify">
@@ -37,7 +49,7 @@ This python script will resize the original dataset images and it will also spli
 </p>
   
 <p align="justify">
-Some of the image has incorrect sRBG format that can't be interpreted by the open-cv in python. so this script will remove noisy data. Deep Learning model requires a concstant input dimensionality, there we have resized the original images into 224x224 fixed resolution.
+Some of the images has incorrect sRBG format that the open-cv in python can't interpret. so this script will remove noisy data. Deep Learning model requires a constant input dimensionality, there we have resized the original images into 224x224 fixed resolution.
 </p>
   
 ## Experiment Setup
