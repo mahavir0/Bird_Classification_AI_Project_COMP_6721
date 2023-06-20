@@ -98,7 +98,7 @@ Here, Google Drive has been mounted in Google Collab so that the dataset can be 
 </p>
 
 <p align="justify">
-Use the'resnet_model.pth' file from the model folder or download the model from the supplied URL below to test the DL model on a fresh dataset. The training and evaluation metrics data demonstrating the outcome of our model training and testing are included in the "graphs" folder. 
+Use the 'resnet_model.pth' file from the model folder or download the model from the supplied URL below to test the DL model on a fresh dataset. The training and evaluation metrics data demonstrating the outcome of our model training and testing are included in the "graphs" folder. 
 </p>
 
 **Trained Resnet Model Link: https://drive.google.com/file/d/1vQtUnZYnJhiERQC0GV9m1MwaDedHsUFq/view?usp=drive_link**
