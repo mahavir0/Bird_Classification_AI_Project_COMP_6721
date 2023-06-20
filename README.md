@@ -70,11 +70,31 @@ Training the model requires the extremely intesive processing hardware units. Fo
 Google collab provide the functionlity to directly read, write data from your google drive, for this project we have uploaded our training dataset on the google drive, from where we read data and save the model, and evalution metrices on the google drive. in the code just provide the dataset path of your drive and authenticate the drive permission and you are ready to train your model.
 </p>
 
-**Trained Resnet Model Link : https://drive.google.com/file/d/1vQtUnZYnJhiERQC0GV9m1MwaDedHsUFq/view?usp=drive_link**
+## How to train and validate the model
+<p align="justify">
+Resnet Model and Decision Tree are used for this project to study and evaluate Machine Learning (ML) tasks for real-world classification problems. For the supervised and semi-supervised learning, we have used the decision tree. For the Deep Neural Network, we have implemented the ResNet model from scratch and compared the performance with the pre-trained model.
+</p>
 
+Here is the directory structure of our project.
+
+For the training, first of all, install the required libraries given in the `requirements.txt` file. or else use the following command.
 ```
 pip install -r requirements.txt
 ```
+*Note: For our project, we have used the Cuda environment to train and evaluate our Deep Learning model*
+
+<p align="justify">
+Now open the `.ipynb` file in google collab or any other frameworks like Jupiter-notebook or vs-code. Provide the path for the training, testing, and validation dataset path. for example,
+```
+train_data_path = Path("/content/gdrive/MyDrive/AI PROJECT DATASET/train")
+valid_data_path = Path("/content/gdrive/MyDrive/AI PROJECT DATASET/valid")
+test_data_path = Path("/content/gdrive/MyDrive/AI PROJECT DATASET/test")
+```
+here, we have mounted google drive into google collab to import the dataset for training and testing purposes. You can your path respective to your environment. we have also added the set of cleaned and preprocessed datasets in this repo. provide the path for the respective folder. The ration for training, testing and validation are respectively 70%, 15% and 15%. 
+</p>
+
+**Trained Resnet Model Link: https://drive.google.com/file/d/1vQtUnZYnJhiERQC0GV9m1MwaDedHsUFq/view?usp=drive_link**
+
 
 
 
