@@ -32,15 +32,14 @@ The given data set consists of around 925 images of 25 different kinds of specie
 
 <p align="justify">
 For this project considering the limited computation power, we have taken the subset of the dataset evaluating the model and compared the performance.
+</p>
+
 |Name | No. of Observations | No. of Classes |
 |:---:|:-------------------:|:--------------:|
 |Resnet - CNN Model | 8877 | 10 |
 |Desicion Tree - Supervised | 8877 | 10 |  
 |Desicion Tree - Supervised (Reduced Dataset) | 2767 | 3 |
 |Desicion Tree - Semi-Supervised | 2767 | 3 |
-</p>
-
-
 
 ## Preprocessing the Dataset
 <p align="justify">
