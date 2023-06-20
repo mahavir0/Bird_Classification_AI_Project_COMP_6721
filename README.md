@@ -31,7 +31,7 @@ The given data set consists of around 925 images of 25 different kinds of specie
 *Note: For our project, we have used a set of this dataset to train and evaluate our model*
 
 <p align="justify">
-For this project considering the limited computation power, we have taken the subset of the dataset evaluating the model and compared the performance.
+For this project considering the limited computational power, we have taken the subset of the dataset evaluating the model and compared the performance.
 </p>
 
 |Model | No. of Observations | No. of Classes |
