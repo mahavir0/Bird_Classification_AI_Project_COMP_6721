@@ -85,12 +85,14 @@ pip install -r requirements.txt
 
 <p align="justify">
 Now open the `.ipynb` file in google collab or any other frameworks like Jupiter-notebook or vs-code. Provide the path for the training, testing, and validation dataset path. for example,
+</p>
 ```
 train_data_path = Path("/content/gdrive/MyDrive/AI PROJECT DATASET/train")
 valid_data_path = Path("/content/gdrive/MyDrive/AI PROJECT DATASET/valid")
 test_data_path = Path("/content/gdrive/MyDrive/AI PROJECT DATASET/test")
 ```
-here, we have mounted google drive into google collab to import the dataset for training and testing purposes. You can your path respective to your environment. we have also added the set of cleaned and preprocessed datasets in this repo. provide the path for the respective folder. The ration for training, testing and validation are respectively 70%, 15% and 15%. 
+<p align="justify">
+here, we have mounted google drive into google collab to import the dataset for training and testing purposes. You can your path respective to your environment. we have also added the set of cleaned and preprocessed datasets in this repo. provide the path for the respective folder. The ration for training, testing and validation are respectively 70%, 15%, and 15%. 
 </p>
 
 **Trained Resnet Model Link: https://drive.google.com/file/d/1vQtUnZYnJhiERQC0GV9m1MwaDedHsUFq/view?usp=drive_link**
