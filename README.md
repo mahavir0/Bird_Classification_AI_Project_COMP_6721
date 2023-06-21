@@ -134,5 +134,10 @@ t-SNE is used to plot the data points' high-dimensional representations in a low
 
 ![](graphs/Resnet_Model_Tsne_Plot_Test_Dataset.png)
 
+2. tSNE plot for Decision Tree with the supervised and semi-supervised approach
+
+![](graphs/Supervised_and_Semi_Supervised_learning_Tsne_Plot_Final_Test_dataset.png)
+
+
 
 
