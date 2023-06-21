@@ -144,3 +144,6 @@ As can be seen in the table below, we have studied three different machine learn
 
 ![](graphs/Comparison_performance_matrix.png)
 
+<p align="justify">
+In conclusion, CNNs are superior to decision trees for image classification because they can automatically recognise intricate patterns and directly extract spatial connections from images. While, decision trees depend on manually created features and might not attain the same level of accuracy, especially for huge datasets. Therefore, CNNs are favoured over decision trees for tasks like bird species identification, where correct classification is essential.
+</p>
