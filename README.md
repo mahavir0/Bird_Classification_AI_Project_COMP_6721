@@ -104,8 +104,11 @@ Use the 'resnet_model.pth' file from the model folder or download the model from
 **Trained Resnet Model Link: https://drive.google.com/file/d/1vQtUnZYnJhiERQC0GV9m1MwaDedHsUFq/view?usp=drive_link**
 
 ## Results
+<p align="justify">
+The graph below illustrates the ResNet CNN Model's performance at each training epoch. As can be seen, model performance improves with each passing epoch, and loss also gradually decreases. Since they can properly fit the training set of data, models with smaller training loss perform better.
+</p>
 
-
+![](graphs/Comparison_performance_matrix.png)
 
 
 
