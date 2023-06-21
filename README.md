@@ -126,7 +126,13 @@ The distribution of Class labels using the confusion matrix is given below.
 
 ![](graphs/Semi_Supervised_Learning_Confusion_Matrix_Test_dataset.png)
 
+<p align="justify">
+t-SNE is used to plot the data points' high-dimensional representations in a low-dimensional space. Here it also shows the clustering of the same class label and also helps us to identify the outliners in the dataset.  
+</p>
 
+1. tSNE plot for the ResNet Model on Test Dataset
+
+![](graphs/Resnet_Model_Tsne_Plot_Test_Dataset.png)
 
 
 
