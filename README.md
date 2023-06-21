@@ -105,7 +105,7 @@ Use the 'resnet_model.pth' file from the model folder or download the model from
 
 ## Results
 <p align="justify">
-The graph below illustrates the ResNet CNN Model's performance at each training epoch. As can be seen, model performance improves with each passing epoch, and loss also gradually decreases. Since they can properly fit the training set of data, models with smaller training loss perform better.
+The graph below illustrates the ResNet CNN Model's performance at each training epoch. As can be seen, model performance improves with each passing epoch, and loss also gradually decreases. Since they can properly fit the training set of data, models with smaller training loss perform better. The performance in terms of accuracy, precision, and recall significantly improves when the loss reduces, as depicted in the graph.
 </p>
 
 ![](graphs/Resnet_Model_Evaluation_Metrics_Loss_Accuracy_Score.png)
