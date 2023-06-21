@@ -138,6 +138,9 @@ t-SNE is used to plot the data points' high-dimensional representations in a low
 
 ![](graphs/Supervised_and_Semi_Supervised_learning_Tsne_Plot_Final_Test_dataset.png)
 
+<p align="justify">
+As can be seen in the table below, we have studied three different machine learning classification tasks using the supervised and semi-supervised Decision tree and ResNet CNN Model. We have summarised the model's performance on our smaller dataset in terms of accuracy, precision, recall, and f1-score.
+</p>
 
-
+![](graphs/Comparison_performance_matrix.png)
 
