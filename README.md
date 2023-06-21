@@ -113,11 +113,17 @@ The graph below illustrates the ResNet CNN Model's performance at each training 
 <P align="justify">
 The distribution of Class labels using the confusion matrix is given below.
 </P>
+
 1. Confusion Matrix for the ResNet Model on Test Dataset
+
 ![](graphs/Resnet_Model_Confusion_Matrix_Test_dataset.png)
+
 2. Confusion Matrix for the Decision Tree with Supervised Learning on Test Dataset
+
 ![](graphs/Supervised_Learning_Confusion_Matrix_Test_dataset.png)
+
 3. Confusion Matrix for the Decision Tree with Semi-Supervised Learning on Test Dataset
+
 ![](graphs/Semi_Supervised_Learning_Confusion_Matrix_Test_dataset.png)
 
 
